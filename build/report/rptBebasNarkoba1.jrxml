@@ -394,7 +394,7 @@
 				<textFieldExpression><![CDATA[$P{kotars}+", "+($P{tanggalsurat})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="81" y="42" width="439" height="14" uuid="f4a25213-cd66-4227-ba1c-bc892a3bac0b"/>
+				<reportElement x="88" y="40" width="381" height="14" uuid="f4a25213-cd66-4227-ba1c-bc892a3bac0b"/>
 				<textElement textAlignment="Center" verticalAlignment="Top">
 					<font fontName="Arial" size="12"/>
 					<paragraph lineSpacing="Single"/>
@@ -402,7 +402,7 @@
 				<textFieldExpression><![CDATA[$P{alamatrs}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="80" y="7" width="440" height="28" uuid="a5c0e7e5-d5e3-48fa-89f8-a3c246ddf0e2"/>
+				<reportElement x="87" y="5" width="382" height="28" uuid="a5c0e7e5-d5e3-48fa-89f8-a3c246ddf0e2"/>
 				<textElement textAlignment="Center" verticalAlignment="Top">
 					<font fontName="Arial Black" size="18" isBold="false"/>
 					<paragraph lineSpacing="Single"/>
@@ -410,7 +410,7 @@
 				<textFieldExpression><![CDATA[$P{namars}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="80" y="55" width="440" height="17" uuid="11826e99-b472-43fc-b89b-0c4e0ac63862"/>
+				<reportElement x="87" y="53" width="382" height="17" uuid="11826e99-b472-43fc-b89b-0c4e0ac63862"/>
 				<textElement textAlignment="Center" verticalAlignment="Top">
 					<font fontName="Arial" size="12"/>
 					<paragraph lineSpacing="Single"/>
