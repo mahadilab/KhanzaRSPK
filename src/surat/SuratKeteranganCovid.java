@@ -442,7 +442,7 @@ public final class SuratKeteranganCovid extends javax.swing.JDialog {
         panelGlass9.add(jLabel19);
 
         DTPCari1.setForeground(new java.awt.Color(50, 70, 50));
-        DTPCari1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-06-2022" }));
+        DTPCari1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-07-2022" }));
         DTPCari1.setDisplayFormat("dd-MM-yyyy");
         DTPCari1.setName("DTPCari1"); // NOI18N
         DTPCari1.setOpaque(false);
@@ -456,7 +456,7 @@ public final class SuratKeteranganCovid extends javax.swing.JDialog {
         panelGlass9.add(jLabel21);
 
         DTPCari2.setForeground(new java.awt.Color(50, 70, 50));
-        DTPCari2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-06-2022" }));
+        DTPCari2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-07-2022" }));
         DTPCari2.setDisplayFormat("dd-MM-yyyy");
         DTPCari2.setName("DTPCari2"); // NOI18N
         DTPCari2.setOpaque(false);
@@ -560,7 +560,7 @@ public final class SuratKeteranganCovid extends javax.swing.JDialog {
         TPasien.setBounds(355, 10, 365, 23);
 
         TanggalAkhir.setForeground(new java.awt.Color(50, 70, 50));
-        TanggalAkhir.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-06-2022" }));
+        TanggalAkhir.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-07-2022" }));
         TanggalAkhir.setDisplayFormat("dd-MM-yyyy");
         TanggalAkhir.setName("TanggalAkhir"); // NOI18N
         TanggalAkhir.setOpaque(false);
@@ -595,7 +595,7 @@ public final class SuratKeteranganCovid extends javax.swing.JDialog {
         jLabel16.setBounds(599, 40, 27, 23);
 
         TanggalAwal.setForeground(new java.awt.Color(50, 70, 50));
-        TanggalAwal.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-06-2022" }));
+        TanggalAwal.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-07-2022" }));
         TanggalAwal.setDisplayFormat("dd-MM-yyyy");
         TanggalAwal.setName("TanggalAwal"); // NOI18N
         TanggalAwal.setOpaque(false);
@@ -718,7 +718,7 @@ public final class SuratKeteranganCovid extends javax.swing.JDialog {
         TidakSehat.setBackground(new java.awt.Color(240, 250, 230));
         TidakSehat.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.pink));
         buttonGroup1.add(TidakSehat);
-        TidakSehat.setText("Tidak Sehat Dan Ada Tanda Dan Gejala Tertular Covid-19");
+        TidakSehat.setText("Positif & Ada Tanda Dan Gejala Tertular Covid-19");
         TidakSehat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         TidakSehat.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         TidakSehat.setName("TidakSehat"); // NOI18N
@@ -735,7 +735,7 @@ public final class SuratKeteranganCovid extends javax.swing.JDialog {
         Sehat.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.pink));
         buttonGroup1.add(Sehat);
         Sehat.setSelected(true);
-        Sehat.setText("Sehat Dan Tidak Ada Tanda Dan Gejala Tertular Covid-19");
+        Sehat.setText("Negatif & Tidak Ada Tanda Dan Gejala Tertular Covid-19");
         Sehat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         Sehat.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         Sehat.setName("Sehat"); // NOI18N

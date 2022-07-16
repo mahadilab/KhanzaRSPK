@@ -391,7 +391,7 @@
 				<textElement verticalAlignment="Top">
 					<font fontName="Arial" size="12"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{kotars}+", "+($P{tanggalsurat})]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{kotars}+", "+new SimpleDateFormat("dd  MMMM  yyyy", new java.util.Locale("id")).format($F{tgl_registrasi})]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="88" y="40" width="381" height="14" uuid="f4a25213-cd66-4227-ba1c-bc892a3bac0b"/>
