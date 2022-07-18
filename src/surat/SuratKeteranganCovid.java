@@ -1216,7 +1216,11 @@ public final class SuratKeteranganCovid extends javax.swing.JDialog {
         TPasien.setText("");
         NoSurat.setText("");
         IgM.setSelectedIndex(0);
+        //tambah
+        IgM.setEnabled(false);
         IgG.setSelectedIndex(0);
+        //
+        IgG.setEnabled(false);
         TanggalAwal.setDate(new Date());
         TanggalAkhir.setDate(new Date());
         Valid.autoNomer3("select ifnull(MAX(CONVERT(RIGHT(no_surat,3),signed)),0) from surat_keterangan_covid where berlakumulai='"+Valid.SetTgl(TanggalAwal.getSelectedItem()+"")+"' ",

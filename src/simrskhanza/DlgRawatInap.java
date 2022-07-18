@@ -3711,8 +3711,12 @@ public final class DlgRawatInap extends javax.swing.JDialog {
                 case 1:
                     if(kdptg.getText().trim().equals("")||TPerawat.getText().trim().equals("")){                              
                         Valid.textKosong(kdptg,"Petugas");
+                        //Sequel.cariIsi("select nama from petugas where nip=?",TPerawat,kdptg.getText());
+                        //kdptg2.setText(kdptg.getText());
                     }else if(TKdPrw1.getText().trim().equals("")||TNmPrw1.getText().trim().equals("")){
                         Valid.textKosong(TKdPrw1,"perawatan");
+                        //Sequel.cariIsi("select nama from petugas where nip=?",TPerawat,kdptg.getText());
+                        //kdptg2.setText(kdptg.getText());
                     }else{
                         if(Sequel.cariRegistrasi(TNoRw.getText().trim())>0){
                             JOptionPane.showMessageDialog(rootPane,"Data billing sudah terverifikasi.\nSilahkan hubungi bagian kasir/keuangan ..!!");
@@ -3772,8 +3776,12 @@ public final class DlgRawatInap extends javax.swing.JDialog {
                         Valid.textKosong(KdDok2,"Dokter");
                     }else if(kdptg2.getText().trim().equals("")||TPerawat2.getText().trim().equals("")){
                         Valid.textKosong(kdptg2,"Petugas");
+                        //Sequel.cariIsi("select nama from petugas where nip=?",TPerawat,kdptg.getText());
+                        //kdptg2.setText(kdptg.getText());
                     }else if(TKdPrw2.getText().trim().equals("")||TNmPrw2.getText().trim().equals("")){
                         Valid.textKosong(TKdPrw2,"perawatan");
+                        //Sequel.cariIsi("select nama from petugas where nip=?",TPerawat,kdptg.getText());
+                        //kdptg2.setText(kdptg.getText());
                     }else{
                         if(Sequel.cariRegistrasi(TNoRw.getText().trim())>0){
                             JOptionPane.showMessageDialog(rootPane,"Data billing sudah terverifikasi.\nSilahkan hubungi bagian kasir/keuangan ..!!");
@@ -4749,8 +4757,12 @@ private void BtnEditActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST
                 case 1:
                     if(kdptg.getText().trim().equals("")||TPerawat.getText().trim().equals("")){
                         Valid.textKosong(kdptg,"Petugas");
+                        //Sequel.cariIsi("select nama from petugas where nip=?",TPerawat,kdptg.getText());
+                        //kdptg2.setText(kdptg.getText());
                     }else if(TKdPrw1.getText().trim().equals("")||TNmPrw1.getText().trim().equals("")){
                         Valid.textKosong(TKdPrw1,"perawatan");
+                        //Sequel.cariIsi("select nama from petugas where nip=?",TPerawat,kdptg.getText());
+                        //kdptg2.setText(kdptg.getText());
                     }else{
                         if(tbRawatPr.getSelectedRow()>-1){
                             if(Sequel.cariRegistrasi(tbRawatPr.getValueAt(tbRawatPr.getSelectedRow(),1).toString())>0){
@@ -5142,6 +5154,7 @@ private void BtnEditKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_B
     private void kdptgKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_kdptgKeyPressed
         if(evt.getKeyCode()==KeyEvent.VK_PAGE_DOWN){
             Sequel.cariIsi("select nama from petugas where nip=?",TPerawat,kdptg.getText());
+            
         }else if(evt.getKeyCode()==KeyEvent.VK_UP){
             BtnSeekPetugasActionPerformed(null);
         }else{
@@ -5171,6 +5184,7 @@ private void BtnEditKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_B
     private void kdptg2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_kdptg2KeyPressed
         if(evt.getKeyCode()==KeyEvent.VK_PAGE_DOWN){
             Sequel.cariIsi("select nama from petugas where nip=?",TPerawat2,kdptg2.getText());
+            
         }else if(evt.getKeyCode()==KeyEvent.VK_UP){
             BtnSeekPetugas2ActionPerformed(null);
         }else{
